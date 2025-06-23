@@ -1,0 +1,32 @@
+:root {
+  --highlight-color: #7ED957;
+  
+  --bg-light-color: #FFFFFF;
+  --bg-dark-color: #545454;
+
+  --text-light-color: #FFFFFF;
+  --text-dark-color: #000000;
+
+  --bg-color: var(--bg-light-color);
+  --text-color: var(--text-light-color);
+}
+
+body.dark-theme {
+  --bg-color: var(--bg-dark-color);
+  --text-color: var(--text-light-color);
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+  background-color: var(--bg-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
