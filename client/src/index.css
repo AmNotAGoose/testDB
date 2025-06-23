@@ -1,20 +1,22 @@
 :root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark-grey: #545454;
+  --light-grey: #efefef;
+
   --highlight-color: #7ED957;
-  
-  --bg-light-color: #FFFFFF;
-  --bg-dark-color: #545454;
+  --accent-color: #545454;
 
-  --text-light-color: #FFFFFF;
-  --text-dark-color: #000000;
+  --bg-main-color: var(--white);
+  --bg-secondary-color: var(--light-grey);
 
-  --bg-color: var(--bg-light-color);
-  --text-color: var(--text-light-color);
+  --text-color: var(--black);
+  --text-small-size: 0.75rem;
+  --text-normal-size: 1rem;
+  --text-large-size: 1.5rem;
+  --text-larger-size: 2rem;
 }
 
-body.dark-theme {
-  --bg-color: var(--bg-dark-color);
-  --text-color: var(--text-light-color);
-}
 
 body {
   margin: 0;
